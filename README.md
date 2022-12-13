@@ -10,7 +10,6 @@ backend: [trocr-base-printed](https://huggingface.co/microsoft/trocr-base-printe
 recognition of printed and handwritten text respectively.
 
 ## How to use it
-___
 ### Web
 Just go here: [https://naniduan-text-reader-main-5sfmm3.streamlit.app/](https://naniduan-text-reader-main-5sfmm3.streamlit.app/)
 + Upload an image
@@ -28,4 +27,5 @@ install [Pillow](https://pillow.readthedocs.io/en/stable/installation.html),
 and [torch](https://pytorch.org/get-started/locally/) separately
 + Run the app with ```streamlit run main.py``` or
 ```python -m streamlit run main.py```
++ Wait until the models are downloaded
 + Do what the **Web** section says
