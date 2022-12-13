@@ -9,7 +9,7 @@ from backend import model
 
 st.write("Choose an image file with a line of text:")
 image_file = st.file_uploader("Choose an image")
-st.write("To start, please specify wether the text is printed or handwritten.")
+st.write("To start, please specify whether the text is printed or handwritten.")
 printed = st.button("printed")
 handwritten = st.button("handwritten")
 
