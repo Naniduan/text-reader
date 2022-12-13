@@ -1,5 +1,6 @@
 import streamlit as st
 
+<<<<<<< HEAD
 from PIL import Image
 import requests
 from backend import model
@@ -18,3 +19,6 @@ def __main():
 
 if __name__ == '__main__':
     __main()
+=======
+st.title('Work in progress')
+>>>>>>> 2dbef0f (Create main.py)
