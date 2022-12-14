@@ -11,7 +11,7 @@ recognition of printed and handwritten text respectively.
 
 ## How to use it
 ### Web
-Just go here: [https://naniduan-text-reader-main-5sfmm3.streamlit.app/](https://naniduan-text-reader-main-5sfmm3.streamlit.app/)
+Just go here: [https://naniduan-text-reader-main-4o5bni.streamlit.app/](https://naniduan-text-reader-main-4o5bni.streamlit.app/)
 + Upload an image
 + Select whether the text on the image is printed or handwritten
 + Wait for the result to appear
