@@ -16,8 +16,12 @@ Just go here: [https://naniduan-text-reader-main-4o5bni.streamlit.app/](https://
 + Select whether the text on the image is printed or handwritten
 + Wait for the result to appear
 ### Telegram bot
-*Work in progress*
+Use this bot: [@neuraltextreaderbot](https://t.me/neuraltextreaderbot)
++ Send it an image
++ Specify whether it has a string of printed or handwritten text
++ Wait until you get the result
 ### Build on your computer
+You can build it as a **web app**:
 + Make sure you have a python environment
 + Download the code
 + Install required packages with ```pip install -r requirements.txt``` or
@@ -30,3 +34,11 @@ and [torch](https://pytorch.org/get-started/locally/) separately
 ```python -m streamlit run main.py```
 + Wait until the models are downloaded
 + Do what the **Web** section says
+
+Alternatively, you can build it as a **telegram bot**:
++ Then, you would also need to 
+install [pyTelegramBotAPI](https://pytba.readthedocs.io/en/latest/install.html)
++ Create a ```api_token.txt``` file in the main directory and put your HTTP API
+token here.
++ Run ```telegram_bot.py``` as a python file.
++ To use the bot do as the **Telegram bot** section says.
