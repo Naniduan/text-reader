@@ -1,8 +1,5 @@
 import streamlit as st
 
-<<<<<<< HEAD
-st.title('Work in progress')
-=======
 from PIL import Image
 import requests
 from backend import model
@@ -17,4 +14,3 @@ if printed:
     st.write(model.get_printed_text(image_file))
 if handwritten:
     st.write(model.get_handwritten_text(image_file))
->>>>>>> dd3134f (the first working version)
