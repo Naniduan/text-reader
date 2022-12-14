@@ -10,7 +10,6 @@ backend: [trocr-base-printed](https://huggingface.co/microsoft/trocr-base-printe
 recognition of printed and handwritten text respectively.
 
 ## How to use it
-___
 ### Web
 Just go here: [https://naniduan-text-reader-main-5sfmm3.streamlit.app/](https://naniduan-text-reader-main-5sfmm3.streamlit.app/)
 + Upload an image
