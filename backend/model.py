@@ -1,12 +1,16 @@
 from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from PIL import Image
+import torch
 import requests
 
-processor_printed = TrOCRProcessor.from_pretrained('microsoft/trocr-base-printed')
-model_printed = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-base-printed')
+printed_model = 'microsoft/trocr-small-printed'
+processor_printed = TrOCRProcessor.from_pretrained(printed_model)
+model_printed = VisionEncoderDecoderModel.from_pretrained(printed_model)
 
-processor_handwritten = TrOCRProcessor.from_pretrained('microsoft/trocr-base-handwritten')
-model_handwritten = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-base-handwritten')
+
+handwritten_model = 'microsoft/trocr-small-handwritten'
+processor_handwritten = TrOCRProcessor.from_pretrained(handwritten_model)
+model_handwritten = VisionEncoderDecoderModel.from_pretrained(handwritten_model)
 
 def get_printed_text(image_file):
     image = Image.open(image_file).convert("RGB")

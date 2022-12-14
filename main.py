@@ -7,14 +7,16 @@ from backend import model
 def __main():
     st.write("Choose an image file with a line of text:")
     image_file = st.file_uploader("Choose an image")
-    st.write("To start, please specify whether the text is printed or handwritten.")
-    printed = st.button("printed")
-    handwritten = st.button("handwritten")
+    text_type = st.radio(
+        "To start, please specify whether the text is printed or handwritten.",
+        ("printed", "handwritten"))
+    start = st.button('start')
 
-    if printed:
-        st.write(model.get_printed_text(image_file))
-    if handwritten:
-        st.write(model.get_handwritten_text(image_file))
+    if start:
+        if text_type == "printed":
+            st.write(model.get_printed_text(image_file))
+        else:
+            st.write(model.get_handwritten_text(image_file))
 
 if __name__ == '__main__':
     __main()
