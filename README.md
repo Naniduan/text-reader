@@ -24,7 +24,7 @@ Just go here: [https://naniduan-text-reader-main-4o5bni.streamlit.app/](https://
 install [Pillow](https://pillow.readthedocs.io/en/stable/installation.html),
 [streamlit](https://docs.streamlit.io/library/get-started/installation),
 [transformers](https://github.com/huggingface/transformers#installation),
-+ [sentencepiece](https://github.com/google/sentencepiece#installation) 
+[sentencepiece](https://github.com/google/sentencepiece#installation) 
 and [torch](https://pytorch.org/get-started/locally/) separately
 + Run the app with ```streamlit run main.py``` or
 ```python -m streamlit run main.py```
