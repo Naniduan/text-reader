@@ -16,6 +16,8 @@ Just go here: [https://naniduan-text-reader-main-4o5bni.streamlit.app/](https://
 + Select whether the text on the image is printed or handwritten
 + Wait for the result to appear
 ### Telegram bot
+***still work in progress***
+
 Use this bot: [@neuraltextreaderbot](https://t.me/neuraltextreaderbot)
 + Send it an image
 + Specify whether it has a string of printed or handwritten text
